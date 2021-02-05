@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Random email</title>
+  </head>
+  <body>
+
+    <div id="app">
+
+        <ul>
+          <li v-for="(item, index) in randomMail">
+            Random email nr {{index + 1}}: {{item}}
+          </li>            
+        </ul>
+
+    </div>
+
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
